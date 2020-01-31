@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+	<title>hmJo portfolio site</title>
+	<!-- meta -->
+	<meta charset="UTF-8">
+    <!-- html5shiv support of HTML5 -->
+    <!--[if lt IE 9]>
+        <script src="js/plugin/html5shiv.js"></script>
+    <![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" id="viewPort" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="publisher hmJo's website">
+	<meta name="keywords" content="Html,Css,jQuery,JavaScript">
+	<meta name="author" content="hyemin Jo">
+	<meta property="og:image" content="images/main/img_me.png" >
+	<link rel="icon" type="image/png" sizes="32x32" href="images/main/favicon.png">
+
+	<!-- css -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&amp;subset=korean"> -->
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/plugin/aos.css">
+
+	<!-- js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/plugin/aos.js"></script>
+    <script src="js/plugin/raphael-2.1.4.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@2/dist/isotope.pkgd.min.js"></script>
+ </head>
+ <body>
+	<!-- loading -->
+	<div id="loading">
+		<img src="images/main/img_loading.gif" alt="loading">
+	</div>
+	<!--// load -->
+
+ <div id="wrap">
+	<!-- header -->
+	<header id="header">
+		<div>
+			<h1><a href="javascript:;" id="logo_home"><img src="images/main/img_logo.png" alt="logo" /></a></h1>
+			<!-- nav -->
+			<nav id="gnb">
+				<ul>
+					<li><a href="#skill">Skill</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#career">Career</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+			<!--// nav -->
+		</div>
+	</header>
+	<!--// header -->
+
+	<!-- content -->
+	<div id="content">
+		<section id="index">
+			<div class="txt">
+				<h2 id="mainTit">WEB PUBLISHER</h2>
+				<p>Hello :)<br/>Welcome to my portfolio site ↓</p>
+			</div>
+		</section>
+		<section id="intro" class="secWrap">
+			<h3>Intro</h3>
+			<div class="introTxt" data-aos="new-anim">
+				안녕하세요! 고민하는 퍼블리셔 조혜민입니다.<br />
+				아름답고 효과적이며 효율적인 웹을 만들기 위해 <br class="mb"/>오늘도 고군분투하고 있답니다 :P<br /><br />
+				웹표준과 접근성을 준수하며, <br class="mb"/>유연한 사고로 <span class="ff-quick">API</span>를 파악하여 사용할 수 있습니다.<br />
+				<span class="ff-quick">SVN</span>과 프로젝트관리툴로 협업하는 것을 좋아하며,<br />
+				백업을 생활화하는 꼼꼼한 퍼블리셔입니다.<br /><br />
+				좋아하는 일을 열심히 하는 것이 제 인생의 목표이자 꿈이기에,<br />
+				오픈마인드로 끊임없이 공부합니다.<br />
+				맡은 바, 책임을 다하겠습니다 :)
+			</div>
+		</section>
+		<section id="skill">
+            <div class="secWrap">
+                <h3>Skill</h3>
+                <ul class="skillWrap">
+                    <li data-aos="fade-up" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill1.png" alt="" />
+                        <ul class="txt">
+                            <li>- 웹표준, 웹접근성 준수</li>
+                            <li>- 시멘틱 마크업</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="100" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill2.png" alt="" />
+                        <ul class="txt">
+                            <li>- 반응형, 적응형 웹 제작</li>
+                            <li>- <span class="ff-quick">CSS3</span> 애니메이션 효과</li>
+                            <li>- <span class="ff-quick">LESS</span> 경험</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="200" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill3.png" alt="" />
+                        <ul class="txt">
+                            <li>- 인터렉티브 웹 제작</li>
+                            <li>- 다양한 오픈 <span class="ff-quick">API</span> 활용</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="300" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill4.png" alt="" />
+                        <ul class="txt">
+                            <li>- 변수와 연산자로 함수생성, 사용 가능</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill5.png" alt="" />
+                        <ul class="txt">
+                            <li>- 다양한 브라우저에서의 크로스브라우징</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="500" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill9.png" alt="" />
+                        <ul class="txt">
+                            <li>- 토토이즈, 이클립스, 젠킨스 등 SVN 사용</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="600" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill6.png" alt="" />
+                        <ul class="txt">
+                            <li>- <span class="ff-quick">Photoshop</span></li>
+                            <li>- <span class="ff-quick">GTQ</span> 1급</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="700" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill7.png" alt="" />
+                        <ul class="txt">
+                            <li>- <span class="ff-quick">Illustrator</span></li>
+                            <li>- 툴 사용 가능</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="800" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill8.png" alt="" />
+                        <ul class="txt">
+                            <li>- <span class="ff-quick">Flash</span></li>
+                            <li>- 간단한 영상 제작 가능</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="900" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill10.png" alt="" />
+                        <ul class="txt">
+                            <li>- <span class="ff-quick">Trello, asana, slack</span> 프로젝트 관리 툴 경험</li>
+                        </ul>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1000" data-aos-anchor=".skillWrap">
+                        <img src="images/main/img_skill11.png" alt="" />
+                        <ul class="txt">
+                            <li>- <span class="ff-quick">Zeplin</span> 툴 경험</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+		</section>
+		<section id="projects" class="secWrap">
+			<h3>Projects</h3>
+			<div class="filter-button-group" data-filter-group="workType">
+				<button data-filter="*" class="on">ALL</button>
+				<button data-filter=".type1">구축</button>
+				<button data-filter=".type2">리뉴얼</button>
+				<button data-filter=".type3">운영</button>
+			</div>
+			<div class="itemBoxWrap">
+				<ul class="itemBox">
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro34.png" alt="한큐에자바 강의 관리 서비스 썸네일" />
+							<figcaption>
+								<em>한큐에자바 강의 관리 서비스</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 구축 2개월</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro33.png" alt="듀오락 프론트 썸네일" />
+							<figcaption>
+								<em>듀오락</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2개월</p>
+								<p>- 반응형</p>
+								<a href="https://duolac.co.kr/mall/main/home.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro32.png" alt="듀오락 어드민 썸네일" />
+							<figcaption>
+								<em>듀오락 어드민</em>
+								<p>- 퍼블리싱 PL (100%)</p>
+								<p>- 구축 및 유지보수 6개월</p>
+								<p>- PC</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro31.png" alt="레몬박스 썸네일" />
+							<figcaption>
+								<em>레몬박스</em>
+								<p>- 퍼블리싱 PL (100%)</p>
+								<p>- 구축 2개월</p>
+								<p>- 반응형</p>
+								<a href="https://www.lemonbox.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1 type2">
+						<figure>
+							<img src="images/projects/img_pro30.png" alt="한큐에시스템 썸네일" />
+							<figcaption>
+								<em>한큐에시스템</em>
+								<p>- 퍼블리싱 PL (100%)</p>
+								<p>- 리뉴얼 4주</p>
+								<p>- 원페이지, 반응형</p>
+								<a href="http://hanqea.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro29.png" alt="시소몰 썸네일" />
+							<figcaption>
+								<em>시소몰</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 4개월</p>
+								<p>- PC</p>
+								<a href="https://www.seesawmall.com/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro28.png" alt="Picktamin 썸네일" />
+							<figcaption>
+								<em>Picktamin</em>
+								<p>- 퍼블리싱 PL (100%)</p>
+								<p>- 구축 3개월</p>
+								<p>- PC</p>
+								<!-- <a href="http://www.picktamin.com/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a> -->
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro1.png" alt="포티스 썸네일" />
+							<figcaption>
+								<em>FORTIS</em>
+								<p>- 퍼블리싱 PL (100%)</p>
+								<p>- 구축 12.6일</p>
+								<p>- 반응형</p>
+								<a href="http://www.fortis.co.kr/ko/index.fts" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1 type3">
+						<figure>
+							<img src="images/projects/img_pro8.png" alt="서울상상나라 썸네일" />
+							<figcaption>
+								<em>서울상상나라</em>
+								<p>- 퍼블리싱</p>
+								<p>- 운영 2년 (100%)</p>
+								<p>- 구축 3개월 (50%)</p>
+								<p>- 반응형, 접근성</p>
+								<a href="https://www.seoulchildrensmuseum.org/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro3.png" alt="키즈오토파크 썸네일" />
+							<figcaption>
+								<em>키즈오토파크</em>
+								<p>- 퍼블리싱 (20%)</p>
+								<p>- 구축 2개월</p>
+								<p>- 반응형</p>
+								<a href="http://kidsautopark.org/intro.html" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro11.png" alt="매일아이 썸네일" />
+							<figcaption>
+								<em>매일유업</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- 반응형</p>
+								<a href="https://www.maeil.com/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro12.png" alt="매일아이 썸네일" />
+							<figcaption>
+								<em>매일아이</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, Mobile, WebApp, Less</p>
+								<a href="https://www.maeili.com/main.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro14.png" alt="매일다이렉트 썸네일" />
+							<figcaption>
+								<em>매일다이렉트</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, Mobile</p>
+								<a href="https://direct.maeil.com/index.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro15.png" alt="매일홀딩스 썸네일" />
+							<figcaption>
+								<em>매일홀딩스</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- 반응형</p>
+								<a href="http://maeilholdings.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type2 type3">
+						<figure>
+							<img src="images/projects/img_pro17.png" alt="썬업 썸네일" />
+							<figcaption>
+								<em>썬업</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 리뉴얼 8일</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, Mobile</p>
+								<a href="http://www.sunup.co.kr/index.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro2.png" alt="자이요가 썸네일" />
+							<figcaption>
+								<em>자이요가</em>
+								<p>- 퍼블리싱 (10%)</p>
+								<p>- 구축 1개월</p>
+								<p>- PC, Mobile</p>
+								<a href="http://www.jaiyoga.co.kr" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro5.png" alt="대우조선해양 썸네일" />
+							<figcaption>
+								<em>대우조선해양</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 1년</p>
+								<p>- 적응형</p>
+								<a href="https://www.dsme.co.kr/pub/main/index.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type2 type3">
+						<figure>
+							<img src="images/projects/img_pro6.png" alt="포스코 청암재단 썸네일" />
+							<figcaption>
+								<em>포스코 청암재단</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 리뉴얼 8일</p>
+								<p>- 운영 1년</p>
+								<p>- PC</p>
+								<a href="https://www.postf.org/ko/main.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro7.png" alt="삼성안전환경연구소 썸네일" />
+							<figcaption>
+								<em>삼성안전환경연구소</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2개월</p>
+								<p>- PC, 접근성</p>
+								<a href="http://www.greensamsung.com/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro9.png" alt="삼성장학회 썸네일" />
+							<figcaption>
+								<em>삼성장학회</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- PC, 접근성</p>
+								<a href="https://www.ssscholarship.com/community/index.jsp" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro4.png" alt="포스코 대우 썸네일" />
+							<figcaption>
+								<em>포스코 대우</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 8개월</p>
+								<p>- 반응형</p>
+								<a href="http://www.daewoo.com/kor/index.do" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro22.png" alt="현대로템 썸네일" />
+							<figcaption>
+								<em>현대로템</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- 반응형</p>
+								<a href="https://www.hyundai-rotem.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro18.png" alt="LS-Nikko동제련 썸네일" />
+							<figcaption>
+								<em>LS-Nikko동제련</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, Mobile</p>
+								<a href="http://www.lsnikko.com/nikko/index.aspx" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro10.png" alt="한온시스템 썸네일" />
+							<figcaption>
+								<em>한온시스템</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- 반응형, 인트라넷(한우리)</p>
+								<a href="http://www.hanonsystems.com/Kr" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro20.png" alt="도레이케미칼TCK 썸네일" />
+							<figcaption>
+								<em>도레이케미칼TCK</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- 반응형</p>
+								<a href="http://www.toray-tck.com/kor/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type2 type3">
+						<figure>
+							<img src="images/projects/img_pro27.png" alt="삼성엔지니어링 웹진 썸네일" />
+							<figcaption>
+								<em>삼성엔지니어링 웹진</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, 인트라넷</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro13.png" alt="포스코1%나눔재단 썸네일" />
+							<figcaption>
+								<em>포스코1%나눔재단</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC</p>
+								<a href="http://poscofoundation.org/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+<!--
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro21.png" alt="패밀리클럽 썸네일" />
+							<figcaption>
+								<em>패밀리클럽</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- 반응형</p>
+								<a href="http://www.familyclub.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro26.png" alt="동원F&B 썸네일" />
+							<figcaption>
+								<em>동원F&B</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 </p>
+								<p>- 반응형</p>
+								<a href="http://www.dongwonfnb.com/services/index" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="매일브랜드 썸네일" />
+							<figcaption>
+								<em>매일브랜드</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC, Mobile</p>
+								<a href="http://brand.maeil.com/index.bh" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="유안타증권 썸네일" />
+							<figcaption>
+								<em>유안타증권</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type1">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="KB스타경제교실 썸네일" />
+							<figcaption>
+								<em>KB스타경제교실</em>
+								<p>- 퍼블리싱 (10%)</p>
+								<p>- 구축 서포트 5일</p>
+								<p>- Mobile</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro23.png" alt="CSM Filter 썸네일" />
+							<figcaption>
+								<em>CSM Filter</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2개월</p>
+								<p>- PC</p>
+								<a href="http://www.csmfilter.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro25.png" alt="동성테크 썸네일" />
+							<figcaption>
+								<em>동성테크</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- PC</p>
+								<a href="http://www.dongsungtech.com/web/Kor/index.asp" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="포스코 사회공헌 썸네일" />
+							<figcaption>
+								<em>포스코 사회공헌</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- PC</p>
+								<a href="http://www.poscolove.co.kr/index/index.asp" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="KB금융공익재단 썸네일" />
+							<figcaption>
+								<em>KB금융공익재단</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- PC</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="현대중공업IR 썸네일" />
+							<figcaption>
+								<em>현대중공업IR</em>
+								<p>- 퍼블리싱 (10%)</p>
+								<p>- 운영 1년 6개월</p>
+								<p>- PC</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="GNC 썸네일" />
+							<figcaption>
+								<em>GNC</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 </p>
+								<p>- 반응형</p>
+								<a href="http://www.gnckorea.co.kr/services/index" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="동원 천지인홍삼 썸네일" />
+							<figcaption>
+								<em>동원 천지인홍삼</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 </p>
+								<p>- 반응형</p>
+								<a href="http://www.e-chunjiin.co.kr/services/index" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="코닝정밀소재 썸네일" />
+							<figcaption>
+								<em>코닝정밀소재</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 </p>
+								<p>- PC, 인트라넷</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro19.png" alt="인터메이저 썸네일" />
+							<figcaption>
+								<em>인터메이저</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC</p>
+								<a href="http://www.intermajor.com/experience/list.asp" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro0.png" alt="LX 대한지적공사 공간정보산업 해외진출지원센터 썸네일" />
+							<figcaption>
+								<em>LX 대한지적공사 공간정보산업 해외진출지원센터</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 3개월</p>
+								<p>- PC</p>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro24.png" alt="도레이케미칼MF 썸네일" />
+							<figcaption>
+								<em>도레이케미칼MF</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년</p>
+								<p>- PC</p>
+								<a href="http://www.tck-mf.com/kor/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+					<li class="item type3">
+						<figure>
+							<img src="images/projects/img_pro16.png" alt="매일차이나 썸네일" />
+							<figcaption>
+								<em>매일차이나</em>
+								<p>- 퍼블리싱 (100%)</p>
+								<p>- 운영 2년 4개월</p>
+								<p>- PC</p>
+								<a href="http://maeilholdings.co.kr/" target="_blank" ><img src="images/main/btn_link.png" alt="링크 새창이동" /></a>
+							</figcaption>
+						</figure>
+					</li>
+-->
+					<li class="item type1 type2 type3 continue">
+						<p>to be continue</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="career">
+            <div class="secWrap">
+                <h3>Career</h3>
+                <strong class="info ff-quick">- Web publisher : 2015.12.21 ~</strong>
+                <div class="herstory">
+                    <div class="future"></div>
+                    <ul class="list">
+                        <li>
+                            <em>2018</em>
+                            <ul>
+                                <li><strong>07</strong><span>GTQ 1급 취득</span></li>
+                                <li><strong>09</strong><span>(주) 한큐에시스템 입사</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <em>2017</em>
+                            <ul>
+                                <li><strong>05</strong><span>정보처리기사 취득</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <em>2016</em>
+                            <ul>
+                                <li><strong>02</strong><span>성결대 멀티미디어공학과 졸업</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <em>2015</em>
+                            <ul>
+                                <li><strong>12</strong><span>(주) 인터메이저 입사</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <em>2012</em>
+                            <ul>
+                                <li><strong>02</strong><span>광명고등학교 졸업</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+		</section>
+		<section id="about" class="secWrap">
+			<h3>About</h3>
+			<div id="map"></div>
+			<ul class="infoBox">
+				<li class="ff-quick"><img src="images/main/icon_phone.png" alt="전화번호"/>010 - 9056 - 4210</li>
+				<li class="ff-quick"><img src="images/main/icon_mail.png" alt="이메일 주소"/>hyemin-jo@naver.com</li>
+				<li><img src="images/main/icon_location.png" alt="주소"/>경기도 시흥시</li>
+			</ul>
+		</section>
+	</div>
+	<!--// content -->
+
+	<!-- footer -->
+	<footer id="footer">
+		<div>
+			<em class="ff-quick">&copy; 2020 hmJo [Updated.2020.02]</em>
+			 <ul>
+				<li><a href="https://github.com/shiikong/portfolio" target="_blank"><img src="images/main/icon_github1.png" alt="github 바로가기"></a></li>
+				<li><a href="https://codepen.io/shiikong/pens/public/?grid_type=list" target="_blank"><img src="images/main/icon_codepen1.png" alt="codepen 바로가기"></a></li>
+			 </ul>
+		 </div>
+	</footer>
+	<!--// footer -->
+
+	<!-- scrollTop -->
+	<div id="btn_top">
+		<a href="#content">
+            <span class="arrow"></span>
+            <img src="images/main/btn_top.png" alt="맨위로" />
+        </a>
+	</div>
+	<!--// scrollTop -->
+ </div>
+ 
+ <script>	  
+	// isotope
+	var $grid = $('.itemBox').isotope({
+		// options
+		itemSelector: '.item',
+		layoutMode: 'masonry',
+		masonry: {
+			isFitWidth : true
+		}
+	});
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'button', function() {
+		var filterValue = $(this).attr('data-filter');
+		$grid.isotope({ filter: filterValue });
+	});
+
+	// google map
+	function initMap() {
+		// var uluru = {lat: 37.465, lng: 126.8651}; //광명
+		var uluru = {lat: 37.444842, lng: 126.792406};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 11,
+			center: uluru
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		});
+	}
+  </script>
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_9wwld3-mBkszRaEVc_wSFgAQcNKm168&amp;callback=initMap"></script>
+ </body>
+</html>
