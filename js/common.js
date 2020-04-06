@@ -38,11 +38,11 @@ $(function(){
 
 		// scrollTop
 		if ( 500 < $(window).scrollTop() ) {
-			$('#btn_top').fadeIn();
-		}else if( $(window).scrollTop() < $(document).height() - $(window).height() - 500) {
-			$('#btn_top').fadeIn();
-		}else{
 			$('#btn_top').fadeOut();
+		}else if( $(window).scrollTop() < $(document).height() - $(window).height() - 500) {
+			$('#btn_top').fadeOut();
+		}else{
+			$('#btn_top').fadeIn();
 		}
 		$('#btn_top').click(function() {
 			$('html, body').stop().animate({ scrollTop : 0 }, 500);
