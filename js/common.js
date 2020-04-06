@@ -39,6 +39,7 @@ $(function(){
 		// scrollTop
 		if ( 500 < $(window).scrollTop() || $(window).scrollTop() < $(document).height() - $(window).height() - 500 ) {
 			$('#btn_top').fadeIn();
+			console.log('test');
 		}else{
 			$('#btn_top').fadeOut();
 		}
