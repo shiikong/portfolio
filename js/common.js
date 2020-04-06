@@ -37,9 +37,10 @@ $(function(){
 		});
 
 		// scrollTop
-		if ( 500 < $(window).scrollTop() || $(window).scrollTop() < $(document).height() - $(window).height() - 500 ) {
+		if ( 500 < $(window).scrollTop() ) {
 			$('#btn_top').fadeIn();
-			console.log('test');
+		}else if( $(window).scrollTop() < $(document).height() - $(window).height() - 500) {
+			$('#btn_top').fadeIn();
 		}else{
 			$('#btn_top').fadeOut();
 		}
