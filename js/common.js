@@ -37,10 +37,10 @@ $(function(){
 		});
 
 		// scrollTop
-		if ( $(window).scrollTop() < 500 ) {
-			$('#btn_top').stop().fadeOut();
+		if ( 500 < $(window).scrollTop() < $(document).height() - $(window).height() ) {
+			$('#btn_top').stop().fadeIn();
 		}else{
-            $('#btn_top').stop().fadeIn();
+			$('#btn_top').stop().fadeOut();
 		}
 		$('#btn_top').click(function() {
 			$('html, body').stop().animate({ scrollTop : 0 }, 500);
